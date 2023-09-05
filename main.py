@@ -32,6 +32,9 @@ def wordle(guess, word):
 
 
 print("Wordle, por Thai Moraes")
+print(color_green + "VERDE: " + color_default + "Letra na sequência e na posição correta.")
+print(color_yellow + "AMARELO: " + color_default + "Letra na sequência, mas na posição incorreta.")
+print("BRANCO: " + "Letra não existe na sequência.")
 print()
 word = ''.join(random.choices(alphabet, k = NUM_LETTERS))
 
